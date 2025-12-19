@@ -3,6 +3,7 @@ import json
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+
 class TrustpilotTrigger:
     def __init__(self, smtp_server, smtp_port, sender_email, sender_password, trustpilot_afs_email):
         self.smtp_server = smtp_server
