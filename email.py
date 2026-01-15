@@ -71,6 +71,3 @@ class TrustpilotTrigger:
             except:
                 pass
 
-# --- Usage ---
-# sender = TrustpilotTrigger(..., trustpilot_afs_email="domain+12345@invite.trustpilot.com")
-# sender.send_trigger("customer@gmail.com", "John Doe", "1234")
